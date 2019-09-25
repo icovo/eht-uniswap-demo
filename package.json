@@ -1,0 +1,19 @@
+{
+  "name": "eht-uniswap-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eth-to-dai-rinkeby": "node --experimental-modules ./EthToDaiRinkeby.mjs",
+    "approve-dai-exchange-rinkeby": "node --experimental-modules ./approveDaiExchangeRinkeby.mjs",
+    "dai-to-eth-rinkeby": "node --experimental-modules ./DaiToEthRinkeby.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethereumjs-tx": "^1.3.7",
+    "web3": "^1.2.1"
+  }
+}
